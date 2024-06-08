@@ -14,11 +14,11 @@
                             class="fs-1">{{ localize(getSetting('halal_hero_sub_title')) }} </span> <br>
                         {{ localize(getSetting('halal_hero_title')) }}</h1>
                     <p class="mb-7 fs-6">{{ localize(getSetting('halal_hero_text')) }}</p>
-                    <div class="hero-btns d-flex align-items-center gap-3 gap-sm-5 flex-wrap animated-btn-icon">
-                        <a href="{{ getSetting('halal_hero_link') }}"
-                            class="btn btn-dark">{{ localize(getSetting('halal_hero_link_text')) }}<span
-                                class="ms-2"><i class="fas fa-arrow-right-long"></i></span></a>
-                    </div>
+{{--                    <div class="hero-btns d-flex align-items-center gap-3 gap-sm-5 flex-wrap animated-btn-icon">--}}
+{{--                        <a href="{{ getSetting('halal_hero_link') }}"--}}
+{{--                            class="btn btn-dark">{{ localize(getSetting('halal_hero_link_text')) }}<span--}}
+{{--                                class="ms-2"><i class="fas fa-arrow-right-long"></i></span></a>--}}
+{{--                    </div>--}}
                 </div>
             </div>
             <div class="col-xl-6 col-lg-7">
